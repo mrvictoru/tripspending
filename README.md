@@ -102,6 +102,36 @@ tripspending/
 - **Android Studio** or **VS Code** with Flutter extensions
 - **Google Maps API Key** (for map features)
 
+### Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/tripspending.git
+cd tripspending/frontend
+
+# Install dependencies
+flutter pub get
+
+# Run the app (debug mode)
+flutter run
+```
+
+### Building for Android
+
+For detailed instructions on building APKs and publishing to Google Play Store, see **[BUILDING.md](BUILDING.md)**.
+
+**Quick commands:**
+```bash
+# Build debug APK (for testing)
+flutter build apk --debug
+
+# Build release APK
+flutter build apk --release
+
+# Build for Play Store (App Bundle)
+flutter build appbundle --release
+```
+
 ### Flutter App Setup
 
 1. **Clone the repository**

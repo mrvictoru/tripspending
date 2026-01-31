@@ -37,7 +37,9 @@ migrate_working_dir/
 **/android/local.properties
 **/android/**/GeneratedPluginRegistrant.*
 **/android/key.properties
+**/android/keystore/
 *.jks
+*.keystore
 
 # iOS
 **/ios/**/*.mode1v3
