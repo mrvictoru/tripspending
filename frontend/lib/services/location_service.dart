@@ -61,7 +61,7 @@ class LocationService {
         return parts.join(', ');
       }
     } catch (e) {
-      print('Error getting address: $e');
+      // Silently handle geocoding errors
     }
     return null;
   }
@@ -74,7 +74,7 @@ class LocationService {
         return locations.first;
       }
     } catch (e) {
-      print('Error getting coordinates: $e');
+      // Silently handle geocoding errors
     }
     return null;
   }
